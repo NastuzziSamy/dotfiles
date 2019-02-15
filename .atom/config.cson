@@ -1,0 +1,114 @@
+"*":
+  "atom-beautify":
+    general: {}
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+    "atom-ide-terminal":
+      allowTransparency: true
+      cursorBlink: true
+  "atom-linter-phpstan":
+    disableWhenNoConfigFile: true
+    executablePath: "/Users/samy/composer/vendor/bin/phpstan"
+    level: "5"
+  "autocomplete-python":
+    useKite: false
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "language-gfm"
+      "atom-python-run"
+      "linter-js-yaml"
+      "linter-js-standard"
+      "line-length-break"
+      "line-breaker"
+      "Hydrogen"
+      "linter-phpcs"
+      "linter-pylint"
+      "linter"
+      "atom-linter-phpstan"
+      "linter-flake8"
+      "linter-markdown"
+      "linter-php"
+      "linter-rust"
+      "linter-sass-lint"
+      "linter-tidy"
+      "linter-twig"
+      "linter-ui-default"
+      "linter-phpmd"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-time-machine"
+    ]
+    projectHome: "/Users/samy/Git"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    warnOnLargeFileLimit: 10
+  docblockr:
+    development_mode: true
+    spacer_between_sections: "after_description"
+  editor:
+    fontSize: 11
+    preferredLineLength: 128
+    tabLength: 4
+  "exception-reporting":
+    userId: "36f08803-9342-475c-afce-69f9639ba7b3"
+  "file-header":
+    copyright: "SiMDE"
+    dateTimeFormat: "YYYY-MM-DD"
+    email: "samy@nastuzzi.fr"
+    enableFilename: true
+    realname: "NASTUZZI Samy"
+    username: "NastuzziSamy"
+  "highlight-line": {}
+  "ide-python":
+    pylsConfigurationSources: [
+      "flake8"
+    ]
+  latex:
+    opener: "preview"
+    outputDirectory: "build"
+  "linter-phpcs":
+    disableWhenNoConfigFile: true
+    executablePath: "/Users/samy/composer/vendor/bin/phpcs"
+  "linter-phpmd":
+    disableWhenNoConfigFile: true
+    executablePath: "/Users/samy/composer/vendor/bin/phpmd"
+    minimumPriority: 5
+  "linter-pylint":
+    disableTimeout: true
+    executablePath: "/usr/local/bin/pylint"
+    pythonPath: "python3"
+  "linter-python":
+    executablePath: "/usr/local/bin/pylama"
+  "linter-ui-default":
+    panelHeight: 192
+    showPanel: true
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "split-diff": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 10
+    neverCloseDirty: true
+    neverCloseNew: true
+    neverCloseUnsaved: true
