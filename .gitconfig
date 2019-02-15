@@ -1,0 +1,6 @@
+[user]
+	email = samy@nastuzzi.fr
+	name = NastuzziSamy
+[core]
+	autocrlf = input
+	excludesfile = /Users/samy/.gitignore_global
