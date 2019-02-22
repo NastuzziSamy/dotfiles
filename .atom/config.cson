@@ -1,6 +1,8 @@
 "*":
   "atom-beautify":
     general: {}
+  "atom-i18n":
+    customMenuI18nPath: "/home/samy/.atom/packages/atom-i18n/def/custom_menu.cson"
   "atom-ide-ui":
     "atom-ide-code-format":
       formatOnSave: true
@@ -55,11 +57,11 @@
     development_mode: true
     spacer_between_sections: "after_description"
   editor:
-    fontSize: 11
+    fontSize: 12
     preferredLineLength: 128
     tabLength: 4
   "exception-reporting":
-    userId: "36f08803-9342-475c-afce-69f9639ba7b3"
+    userId: "1eac4c45-b7dc-43ec-a78c-10dbea503fb9"
   "file-header":
     copyright: "SiMDE"
     dateTimeFormat: "YYYY-MM-DD"
