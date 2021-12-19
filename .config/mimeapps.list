@@ -1,0 +1,24 @@
+[Added Associations]
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+image/png=gimp.desktop;display-im6.q16.desktop;
+text/csv=codium.desktop;
+text/plain=firefox.desktop;
+image/jpeg=gimp.desktop;
+inode/directory=code.desktop;codium.desktop;
+text/x-log=libreoffice-calc.desktop;
+application/x-cd-image=gnome-disk-image-mounter.desktop;org.gnome.FileRoller.desktop;gnome-disk-image-writer.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/pdf=org.gnome.Evince.desktop;
+image/vnd.microsoft.icon=gimp.desktop;
+
+[Default Applications]
+text/html=figma-linux_figma-linux.desktop
+x-scheme-handler/figma=figma-linux_figma-linux.desktop
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/rdp=org.remmina.Remmina.desktop
+x-scheme-handler/spice=org.remmina.Remmina.desktop
+x-scheme-handler/vnc=org.remmina.Remmina.desktop
+x-scheme-handler/remmina=org.remmina.Remmina.desktop
+application/x-remmina=org.remmina.Remmina.desktop
+x-scheme-handler/postman=Postman.desktop

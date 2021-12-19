@@ -1,0 +1,7 @@
+[user]
+        email = samy@nastuzzi.fr
+        name = NastuzziSamy
+        signingKey = 300A8321E990D75557357138C7C58537F82D8227
+
+[commit]
+#	gpgSign = yes
