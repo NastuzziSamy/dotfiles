@@ -1,7 +1,7 @@
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored
-zstyle :compinstall filename '/home/samy/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
