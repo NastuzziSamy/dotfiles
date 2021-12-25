@@ -1,5 +1,5 @@
-## Antigen ##
-source ~/.config/zsh/antigen.zshrc
+## Antigen extensionns ##
+source ~/.config/zsh/extensions.zshrc
 
 ## Aliases ##
 source ~/.config/zsh/aliases.zshrc
