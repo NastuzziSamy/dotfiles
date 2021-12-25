@@ -22,6 +22,9 @@ antigen bundle jsontools
 antigen bundle laravel4
 antigen bundle sudo
 
+antigen bundle johnhamelink/env-zsh
+antigen bundle MichaelAquilina/zsh-autoswitch-virtualenv
+
 AUTOSUGGESTION_ACCEPT_RIGHT_ARROW=1
 
 # Enable autosuggestions automatically

@@ -3,9 +3,9 @@
 	excludesfile = ~/.gitignore_global
 	editor = codium
 [alias]
-        amend = commit -s --amend
-        cm = commit -s -m
-        commit = commit -s	
+	amend = commit -s --amend
+	cm = commit -s -m
+	commit = commit -s
 	c = commit -s
 	last = log -1 HEAD
 [color]
@@ -16,7 +16,7 @@
 
 [includeIf "gitdir:~/Git/"]
 	path = .gitconfig-github
-[includeIf "gitdir:~/Projects/Laramore/"] 
+[includeIf "gitdir:~/Projects/Laramore/"]
 	path = .gitconfig-github
 [includeIf "gitdir:~/Projects/BricAVrac/"]
 	path = .gitconfig-bricavrac

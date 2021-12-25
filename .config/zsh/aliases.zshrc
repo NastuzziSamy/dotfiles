@@ -1,7 +1,17 @@
+alias nalias="nano ~/.config/zsh/aliases.zshrc"
+
+alias pip="pip3"
+
 alias ls="exa"
-alias la="ls -al"
-alias ll="ls -l"
+alias la="ls -algh"
+alias ll="ls -lgh"
 alias l="la"
+
+alias aptu="sudo apt update"
+alias apta="sudo apt autoremove"
+alias aptuu="aptu && sudo apt upgrade && apta"
+alias apti="sudo apt install"
+alias aptui="aptu && apti"
 
 alias gsconnect-cli="~/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/daemon.js"
 alias gsc-cli="gsconnect-cli"
@@ -9,6 +19,7 @@ alias kdeconnect-cli="gsconnect-cli"
 
 alias code="codium"
 alias c.="code ."
+alias codedir="ls -d */ | xargs -I {} zsh -c \"codium '{}'\""
 
 alias ci="composer install"
 alias cu="composer update"
@@ -20,9 +31,10 @@ alias crd="composer require --dev"
 alias crm="composer remove"
 
 alias pa="php artisan"
-alias pat="php artisan tinker -v"
-alias pac="php artisan clear"
-alias pas="php artisan serve"
+alias pat="pa tinker -v"
+alias pac="pa clear"
+alias pas="pa serve"
+alias pao="pa octane:start --watch"
 
 alias cdl="cd ~/Projects/Laramore"
 alias cdlb="cdl && cd base"
@@ -44,3 +56,25 @@ alias cdlmf="cdl && cd media-fields"
 alias cdp="cd ~/Projects"
 alias cdg="cd ~/Git"
 alias cdb="cdp && cd BricAVrac"
+alias cdbg="cdb && cd Git"
+alias cdbb="cdbg && cd Bric"
+alias cdbw="cdbg && cd Website"
+alias cdbi="cdbg && cd Interface"
+alias cdpg="cdp && cd Gnome"
+
+alias scan="debsecan --suite $(lsb_release --codename --short) --source https://raw.githubusercontent.com/BBVA/ust2dsa/data/"
+
+alias spicetify="/opt/spicetify-cli/spicetify"
+
+alias y="yarn"
+alias yi="y install"
+alias ya="y add"
+alias yad="ya --dev"
+alias yr="y remove"
+alias ys="y start"
+alias yb="y build"
+
+alias rv="rm -rf vendor"
+alias rvc="rv composer.lock"
+alias rn="rm -rf node_modules"
+alias rnp="rn package-lock.json"
